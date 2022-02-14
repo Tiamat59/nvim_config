@@ -6,6 +6,8 @@ nvim from scratch chris@machine : [https://www.youtube.com/playlist?list=PLhoH5v
 
 Youtube chris@machine : [https://github.com/LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch)
 
+Awesome neovim [https://github.com/rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
+
 ### Required
  - ripgrep (for trelescope)
  - ueberzug (for image preview)
