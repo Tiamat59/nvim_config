@@ -51,6 +51,8 @@ return packer.startup(function(use)
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
   use "akinsho/toggleterm.nvim"
+  use "hoob3rt/lualine.nvim"
+
   -- Colorscheme
   -- use 'joshdick/onedark.vim'
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
