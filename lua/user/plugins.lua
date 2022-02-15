@@ -52,6 +52,7 @@ return packer.startup(function(use)
   use "moll/vim-bbye"
   use "akinsho/toggleterm.nvim"
   use "hoob3rt/lualine.nvim"
+  use "folke/which-key.nvim"
 
   -- Colorscheme
   -- use 'joshdick/onedark.vim'
