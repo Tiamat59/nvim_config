@@ -53,6 +53,8 @@ return packer.startup(function(use)
   use "akinsho/toggleterm.nvim"
   use "hoob3rt/lualine.nvim"
   use "folke/which-key.nvim"
+  use 'lewis6991/impatient.nvim'
+  use "lukas-reineke/indent-blankline.nvim"
 
   -- Colorscheme
   -- use 'joshdick/onedark.vim'
