@@ -9,5 +9,5 @@ Youtube chris@machine : [https://github.com/LunarVim/Neovim-from-scratch](https:
 Awesome neovim [https://github.com/rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
 
 ### Required
- - ripgrep (for trelescope)
+ - ripgrep (for telescope)
  - ueberzug (for image preview)
