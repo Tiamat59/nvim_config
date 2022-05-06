@@ -41,6 +41,7 @@ packer.init({
 -- Install your plugins here
 return packer.startup(function(use)
 	-- My plugins here
+
 	use("wbthomason/packer.nvim") -- Have packer manage itself
 	use("nvim-lua/popup.nvim") -- An implementation of the Popup API from vim in Neovim
 	use("nvim-lua/plenary.nvim") -- Useful lua functions used ny lots of plugins
@@ -55,6 +56,14 @@ return packer.startup(function(use)
 	use("folke/which-key.nvim")
 	use("lewis6991/impatient.nvim")
 	use("lukas-reineke/indent-blankline.nvim")
+
+	--Treesitter
+    use({
+	   "nvim-treesitter/nvim-treesitter",
+        run = ":TSUpdate",
+	})
+	use("p00f/nvim-ts-rainbow")
+	use("JoosepAlviste/nvim-ts-context-commentstring")
 
 	-- Colorscheme
 	-- use 'joshdick/onedark.vim'
@@ -83,13 +92,6 @@ return packer.startup(function(use)
 	-- ueberzug is required
 	use("nvim-telescope/telescope-media-files.nvim")
 
-	--Treesitter
-    use({
-	    "nvim-treesitter/nvim-treesitter",
-		run = ":TSUpdate",
-	})
-	use("p00f/nvim-ts-rainbow")
-	use("JoosepAlviste/nvim-ts-context-commentstring")
 
 	-- Git
 	use("lewis6991/gitsigns.nvim")
