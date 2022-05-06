@@ -47,7 +47,7 @@ return packer.startup(function(use)
 	use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
 	use("numToStr/Comment.nvim") -- Easily comment stuff
 	use("kyazdani42/nvim-web-devicons")
-	use("kyazdani42/nvim-tree.lua")
+    use("kyazdani42/nvim-tree.lua")
 	use("akinsho/bufferline.nvim")
 	use("moll/vim-bbye")
 	use("akinsho/toggleterm.nvim")
@@ -83,9 +83,9 @@ return packer.startup(function(use)
 	-- ueberzug is required
 	use("nvim-telescope/telescope-media-files.nvim")
 
-	-- Treesitter
-	use({
-		"nvim-treesitter/nvim-treesitter",
+	--Treesitter
+    use({
+	    "nvim-treesitter/nvim-treesitter",
 		run = ":TSUpdate",
 	})
 	use("p00f/nvim-ts-rainbow")
